@@ -26,7 +26,6 @@ public class Solution02_02 {
 		
 		input.close();
 		
-
 	}
 
 }
