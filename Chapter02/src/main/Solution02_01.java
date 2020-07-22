@@ -21,6 +21,8 @@ public class Solution02_01 {
 		double fahrenheit = (9/5.0) * celcius + 32;
 		System.out.println(celcius + " degree Celcius is in " + fahrenheit + " degree Fahrenheit.");
 		
+		input.close();
+		
 	}
 
 }

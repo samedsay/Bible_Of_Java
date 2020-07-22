@@ -19,6 +19,8 @@ public class Solution02_03 {
 		float meter = feet * 0.305f;
 		System.out.println(feet + " feet is " + meter + " meters.");
 		
+		input.close();
+		
 	}
 
 }

@@ -25,6 +25,8 @@ public class Solution02_06 {
 		
 		System.out.println("The sum of the digits is " + total);
 		
+		input.close();
+		
 	}
 
 }

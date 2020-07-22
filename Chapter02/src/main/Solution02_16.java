@@ -15,6 +15,8 @@ public class Solution02_16 {
 		double side = input.nextDouble();
 		double area = 3 * Math.pow(3, 0.5) / 2 * Math.pow(side, 2);
 		System.out.print("The area is " + area);
+		
+		input.close();
 	
 	}
 

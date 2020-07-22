@@ -28,6 +28,8 @@ public class Solution02_19 {
 		double area = Math.pow(side * (side - side1) * (side - side2) * (side - side3) , 0.5);
 		
 		System.out.println("The area of the triangle is " + (float)area);
+		
+		input.close();
 	}
 
 }

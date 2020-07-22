@@ -24,6 +24,8 @@ public class Solution02_02 {
 		System.out.println("Area of cylinder is " + area);
 		System.out.println("Volume of cylinder is " + volume);
 		
+		input.close();
+		
 
 	}
 

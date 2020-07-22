@@ -18,6 +18,8 @@ public class Solution02_04 {
 		float pounds = input.nextFloat();
 		float kilograms = pounds * 0.454f;
 		System.out.println(pounds + " pounds is " + kilograms + " kilograms");
+		
+		input.close();
 
 	}
 

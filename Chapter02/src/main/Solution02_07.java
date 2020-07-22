@@ -21,6 +21,8 @@ public class Solution02_07 {
 		
 		System.out.print(minutes + " minutes is approximately " + years + " years and " + days + " days");
 		
+		input.close();
+		
 
 	}
 

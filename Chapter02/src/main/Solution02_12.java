@@ -19,6 +19,8 @@ public class Solution02_12 {
 		double acceleration = input.nextDouble();
 		System.out.print("The minimum runway length for this airplane is " + (float)((speed * speed) / (2 * acceleration)));
 		
+		input.close();
+		
 
 	}
 

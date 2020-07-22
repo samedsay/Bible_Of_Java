@@ -26,7 +26,7 @@ public class Solution02_21 {
 		
 		System.out.print("Accumulated value is " + (float)futureInvestmentValue);
 
-
+		input.close();
 	}
 
 }

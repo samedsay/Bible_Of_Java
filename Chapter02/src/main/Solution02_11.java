@@ -19,6 +19,8 @@ public class Solution02_11 {
 		System.out.println("The population in " + year + " years is " + ((int)(year * (((365 * 24 * 60 * 60) / 7.0) + ((365 * 24 * 60 * 60) / 45.0)
 				- ((365 * 24 * 60 * 60) / 13.0)) + 312_032_486)));
 		
+		input.close();
+		
 	}
 
 }

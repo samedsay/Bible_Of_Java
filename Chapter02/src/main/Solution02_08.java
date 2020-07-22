@@ -15,7 +15,6 @@ public class Solution02_08 {
 		System.out.print("Enter the time zone offset to GMT: ");
 		int timeZone = input.nextInt();
 		long realTime = System.currentTimeMillis();
-		int milliseconds = (int)realTime % 1000;
 		realTime /= 1000;
 		int seconds = (int)realTime % 60;
 		realTime /= 60;
@@ -24,6 +23,8 @@ public class Solution02_08 {
 		int hours = (int)realTime % 24; 
 		
 		System.out.println("The current time is " + (hours + timeZone) + ":" + min + ":" + seconds);
+		
+		input.close();
 
 	}
 

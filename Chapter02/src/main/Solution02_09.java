@@ -24,7 +24,8 @@ public class Solution02_09 {
 		
 		System.out.println("The average acceleration is " + (float)acceleration);
 		
-
+		input.close();
+		
 	}
 
 }

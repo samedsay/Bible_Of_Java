@@ -22,6 +22,7 @@ public class Solution02_20 {
 		
 		System.out.print("The interest is " + (float)interest);
 
+		input.close();
 	}
 
 }

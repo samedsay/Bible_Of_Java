@@ -26,6 +26,8 @@ public class Solution02_10 {
 		double energy = waterMass * (finalTemp - initialTemp) * 4184;
 		
 		System.out.println("The energy needed is " + energy);
+	
+		input.close();
 	}
 
 }

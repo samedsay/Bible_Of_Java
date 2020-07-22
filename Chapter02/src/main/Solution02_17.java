@@ -15,6 +15,7 @@ public class Solution02_17 {
 							+ (0.4275 * temperature * Math.pow(windSpeed, 0.16)) ;
 		System.out.println("The wind chill index is " + (float)windChillTemp);
 		
+		input.close();
 		
 	}
 

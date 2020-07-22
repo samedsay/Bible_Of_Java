@@ -21,6 +21,7 @@ public class Solution02_05 {
 		
 		System.out.println("The gratuity is $" + gratuity + " and total is $" + total);
 		
+		input.close();
 
 	}
 
