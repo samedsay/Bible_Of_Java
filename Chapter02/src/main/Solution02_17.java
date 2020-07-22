@@ -2,10 +2,6 @@ package main;
 
 import java.util.Scanner;
 
-/*
- * 
- */
-
 public class Solution02_17 {
 
 	public static void main(String[] args) {
