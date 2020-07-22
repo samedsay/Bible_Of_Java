@@ -35,8 +35,6 @@ public class Solution02_13 {
 		}
 		System.out.println("After the " + month + " months, the account value is " + (float)totalMoney);
 		
-		
-		
 
 	}
 
