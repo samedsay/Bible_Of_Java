@@ -5,7 +5,7 @@ package main;
  * Cast floating- point numbers into integers.
  */
 
-public class Solutions02_18 {
+public class Solution02_18 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
