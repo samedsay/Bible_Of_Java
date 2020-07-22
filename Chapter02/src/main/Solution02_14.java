@@ -19,7 +19,7 @@ public class Solution02_14 {
 		System.out.print("Enter height in inches: ");
 		double height = input.nextDouble();
 		double bmi = (weight * 0.45359237) / ((height * 0.0254) * (height * 0.0254));
-		System.out.print("BMI is " + bmi);
+		System.out.print("BMI is " + (float)bmi);
 
 	}
 
