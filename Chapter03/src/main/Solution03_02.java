@@ -24,8 +24,7 @@ public class Solution03_02 {
 		System.out.print(number1 + " + " + number2 + " + " + number3 + " = " + totalUser + " is " + 
 						(totalReal == totalUser ? true : false));
 
-
-
+		input.close();
 	}
 
 }
