@@ -31,7 +31,6 @@ public class Solution03_20 {
 		else
 			System.out.println("Temperature is invalid!");
 
-
 		
 		input.close();
 	}
