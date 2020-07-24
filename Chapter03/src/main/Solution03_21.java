@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Write a pro- gram that prompts the user to enter a year, month, and day of the month, and displays the name of the day of the week.
  */
 
-public class Soluution03_21 {
+public class Solution03_21 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
