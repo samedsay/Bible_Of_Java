@@ -21,19 +21,24 @@ public class Solution03_17 {
 		int computer = (int)(Math.random() * 3);
 		
 		if(computer == 0 && user == 1)
-			System.out.println("You won!");
+			System.out.println("The computer is scissor. You are rock. You won!");
 		else if(computer == 0 && user == 2)
-			System.out.println("You lost!");
+			System.out.println("The computer is scissor. You are paper. You lost!");
 		else if(computer == 1 && user == 0)
-			System.out.println("You lost!");
+			System.out.println("The computer is rock. You are scissor. You lost!");
 		else if(computer == 1 && user == 2)
-			System.out.println("You won!");
+			System.out.println("The computer is rock. You are paper. You won!");
 		else if(computer == 2 && user == 0)
-			System.out.println("You won!");
+			System.out.println("The computer is paper. You are scissor. You won!");
 		else if(computer == 2 && user == 1)
-			System.out.println("You lost!");
-		else
-			System.out.println("It is a draw!");
+			System.out.println("The computer is paper. You are rock. You lost!");
+		else if(computer == 0 && user == 0)
+			System.out.println("The computer is scissor. You are scissor too. It is a draw!");
+		else if(computer == 1 && user == 1)
+			System.out.println("The computer is rock. You are rock too. It is a draw!");
+		else if(computer == 2 && user == 2)
+			System.out.println("The computer is paper. You are paper too. It is a draw!");
+		
 		
 		input.close();
 	}
