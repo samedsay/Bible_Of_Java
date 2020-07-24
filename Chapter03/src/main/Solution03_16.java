@@ -20,10 +20,7 @@ public class Solution03_16 {
 		System.out.println("(" + (x + width) + "," + (y + height) + ")\n  |		|\n  |		|\n  |		|\n  |		|");
 		System.out.print("(" + x + "," + y + ")--------");
 		System.out.println("(" + (x + width) + "," + y + ")");
-
-
-		
-		
+	
 
 	}
 
