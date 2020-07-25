@@ -32,6 +32,8 @@ public class Solution03_27 {
 			System.out.println("The point is in the triangle");
 		else
 			System.out.println("The point is not in the triangle");
+		
+		input.close();
 
 	}
 
