@@ -18,38 +18,20 @@ public class Solution03_27 {
 		double x = input.nextDouble();
 		double y = input.nextDouble();
 		
-		double a = 100;
-		double b = 200;
-		double c = (int)(Math.pow(Math.pow(100, 2) + Math.pow(200, 2), 0.5));
+		double x1, y1, x2, y2, x3, y3;
+		x1 = y1 = x2 = y3 = 0;
+		y2 = 100;
+		x3 = 200;
 		
-		double halfPerimeter = (a + b + c) / 2;
-		double area = Math.pow(halfPerimeter * (halfPerimeter - a) * (halfPerimeter - b) *
-				(halfPerimeter - c), 0.5);
+		int area = (int)Math.abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 *(y1 - y2)) / 2);
+		int areaA = (int)Math.abs((x * (y2 - y3) + x2 * (y3 - y) + x3 *(y - y2)) / 2);
+		int areaB = (int)Math.abs((x1 * (y - y3) + x * (y3 - y1) + x3 *(y1 - y)) / 2);
+		int areaC = (int)Math.abs((x1 * (y2 - y) + x2 * (y - y1) + x *(y1 - y2)) / 2);
 		
-		double newSide1 = Math.pow(Math.pow(x-0, 2) + Math.pow(y-0, 2), 0.5);
-		double newSide2 = Math.pow(Math.pow(x-0, 2) + Math.pow(y-100, 2), 0.5);
-		halfPerimeter = (newSide1 + newSide2 + a) / 2;
-		double areaA = Math.pow(halfPerimeter * (halfPerimeter - newSide1) * (halfPerimeter - a) *
-				(halfPerimeter - newSide2), 0.5);
-		
-		newSide1 = Math.pow(Math.pow(x-0, 2) + Math.pow(y-0, 2), 0.5);
-		newSide2 = Math.pow(Math.pow(x-200, 2) + Math.pow(y-0, 2), 0.5);
-		halfPerimeter = (newSide1 + newSide2 + b) / 2;
-		double areaB = Math.pow(halfPerimeter * (halfPerimeter - newSide1) * (halfPerimeter - b) *
-				(halfPerimeter - newSide2), 0.5);
-		
-		newSide1 = Math.pow(Math.pow(x-0, 2) + Math.pow(y-100, 2), 0.5);
-		newSide2 = Math.pow(Math.pow(x-200, 2) + Math.pow(y-0, 2), 0.5);
-		halfPerimeter = (newSide1 + newSide2 + c) / 2;
-		double areaC = Math.pow(halfPerimeter * (halfPerimeter - newSide1) * (halfPerimeter - c) *
-				(halfPerimeter - newSide2), 0.5);
-		
-		//if(area == areaA + areaB + areaC)
-			System.out.println("The point is in the triangle" + area);
-		
-			System.out.println("The point is not in the triangle" + (areaA + areaB + areaC));
-
-		
+		if(area == (areaA + areaB + areaC))
+			System.out.println("The point is in the triangle");
+		else
+			System.out.println("The point is not in the triangle");
 
 	}
 
