@@ -8,12 +8,27 @@ public class Solution03_32 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter three points for p0, p1, and p2: ");
-		double p0, p1, p2;
-		p0 = input.nextDouble();
-		p1 = input.nextDouble();
-		p2 = input.nextDouble();
+		double x0, x1, x2, y0, y1, y2;
+		x0 = input.nextDouble();
+		y0 = input.nextDouble();
+		x1 = input.nextDouble();
+		y1 = input.nextDouble();
+		x2 = input.nextDouble();
+		y2 = input.nextDouble();
 
+		double place = (x1 - x0)*(y2 - y0) - (x2 - x0)*(y1 - y0);
 		
+		if(place > 2)
+			System.out.println("("+ x2 + ", " + y2 + ") is on the left side of the line from (" 
+								+ x0 + ", " + y0 + ") to (" + x1 + ", " + x1 + ")");
+		else if(place == 0)
+			System.out.println("("+ x2 + ", " + y2 + ") is on the line from (" 
+					+ x0 + ", " + y0 + ") to (" + x1 + ", " + x1 + ")");
+		else
+			System.out.println("("+ x2 + ", " + y2 + ") is on the right side of the line from (" 
+					+ x0 + ", " + y0 + ") to (" + x1 + ", " + x1 + ")");
+		
+		input.close();
 
 	}
 

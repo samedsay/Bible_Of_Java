@@ -12,6 +12,14 @@ public class Solution03_34 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		long a = 0;
+		char c = 'C';
+		switch(c) {
+		case 67:
+			System.out.println();
+		}
+		
+		
 	}
 
 }
