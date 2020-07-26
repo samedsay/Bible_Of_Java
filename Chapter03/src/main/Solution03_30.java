@@ -34,14 +34,10 @@ public class Solution03_30 {
 			isItAm = false;
 		}else if(newHour == 12)
 			isItAm = false;
-		
-		
-			
-		
-		System.out.println("The current time is " + (newHour) + ":" + min + ":" + seconds + (isItAm ? "AM":"PM"));
+
+		System.out.println("The current time is " + (newHour) + ":" + min + ":" + seconds + (isItAm ? " AM":" PM"));
 		
 		input.close();
-
 
 	}
 
