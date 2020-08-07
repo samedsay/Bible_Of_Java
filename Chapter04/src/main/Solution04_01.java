@@ -23,8 +23,6 @@ public class Solution04_01 {
 		
 		System.out.printf("The area of the pentagon is %.2f", area);
 		
-		
-		
 		input.close();
 	}
 
