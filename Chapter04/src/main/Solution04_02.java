@@ -25,6 +25,7 @@ public class Solution04_02 {
 		
 		input.close();
 
+		
 	}
 
 }
