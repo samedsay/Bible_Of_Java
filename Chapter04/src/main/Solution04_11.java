@@ -16,7 +16,6 @@ public class Solution04_11 {
 		int decimal = input.nextInt();
 		String output = "";
 
-		int hex = 0;
 		if (decimal < 0 || decimal > 15) {
 			System.out.println(decimal + " is an invalid input");
 		} else if (decimal < 10)
