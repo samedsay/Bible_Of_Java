@@ -19,16 +19,19 @@ public class Solution04_12 {
 		int valueOfHex = 0;
 		int binaryNum = 0;
 
-		if ((output - 48) < 10 && (output - 48) >= 10) {
+		if ((output - 48) < 10 && (output - 48) >= 0) {
 			valueOfHex = output - 48;
 
-		} else if ((output - 65) < 6 && (output - 65) >= 0) {
+		} else if (((output - 65) < 6 && (output - 65) >= 0)) {
 			valueOfHex = output - 65 + 10;
+		}
+		else if ((output - 97) < 6 && (output - 97) >= 0) {
+				valueOfHex = output - 97 + 10;
 
 		} else {
 			valueOfHex = -1;
 			System.out.println((valueOfHex < 0 ? inputValue : hex) + " is an invalid input. ");
-			
+
 		}
 		if (valueOfHex >= 0) {
 			switch (valueOfHex) {
@@ -82,7 +85,7 @@ public class Solution04_12 {
 			System.out.println("The binary value is " + binaryNum);
 
 		}
-		
+
 		input.close();
 
 	}
