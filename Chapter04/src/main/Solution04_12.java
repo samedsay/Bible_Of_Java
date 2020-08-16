@@ -24,9 +24,8 @@ public class Solution04_12 {
 
 		} else if (((output - 65) < 6 && (output - 65) >= 0)) {
 			valueOfHex = output - 65 + 10;
-		}
-		else if ((output - 97) < 6 && (output - 97) >= 0) {
-				valueOfHex = output - 97 + 10;
+		} else if ((output - 97) < 6 && (output - 97) >= 0) {
+			valueOfHex = output - 97 + 10;
 
 		} else {
 			valueOfHex = -1;
