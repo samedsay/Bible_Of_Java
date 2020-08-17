@@ -15,7 +15,7 @@ public class Solution04_14 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a letter grade: ");
 		char letter = input.nextLine().charAt(0);
-		int numericValue = 0;
+		
 		switch (letter) {
 		case 'A':
 			System.out.println("The numeric value for grade " + letter + " is " + 4);
