@@ -36,7 +36,8 @@ public class Solution04_14 {
 			System.out.println(letter + " is an invalid grade");
 
 		}
-
+		
+		input.close();
 	}
 
 }
