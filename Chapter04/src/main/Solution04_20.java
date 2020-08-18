@@ -15,7 +15,7 @@ public class Solution04_20 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a string: ");
 		String line = input.next();
-		System.out.println("First letter of \"" + line + "\" is " + line.charAt(0));
+		System.out.println("First letter of \"" + line + "\" is " + line.charAt(0) + " and its length is " + line.length());
 		
 		input.close();
 
