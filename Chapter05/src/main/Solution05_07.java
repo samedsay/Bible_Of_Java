@@ -13,8 +13,6 @@ public class Solution05_07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		Scanner input = new Scanner(System.in);
 		final double RATIO = 0.05;
 		double tuitionFee = 10000;
 		for (int i = 0; i < 10; i++) {
