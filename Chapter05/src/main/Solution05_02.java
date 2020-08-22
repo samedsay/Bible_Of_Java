@@ -19,34 +19,37 @@ public class Solution05_02 {
 		int correctCounter = 0;
 		String output = "";
 		long startTime = System.currentTimeMillis();
-		
-		while(counter < NUMBER_OF_QESTIONS) {
-			
-			int firstNumber = (int)(Math.random() * 16);
-			int secondNumber = (int)(Math.random() * 16);
-			
+
+		while (counter < NUMBER_OF_QESTIONS) {
+
+			int firstNumber = (int) (Math.random() * 16);
+			int secondNumber = (int) (Math.random() * 16);
+
 			System.out.print("What is " + firstNumber + " + " + secondNumber + "? ");
 			int result = input.nextInt();
-			
-			if(firstNumber + secondNumber == result) {
+
+			if (firstNumber + secondNumber == result) {
 				System.out.println("You are correct!");
 				correctCounter++;
-			}else {
-				System.out.println("Your answer is wrong!\n" + firstNumber + " + " + secondNumber + " should be " + (firstNumber + secondNumber) + "\n");
-				
+			} else {
+				System.out.println("Your answer is wrong!\n" + firstNumber + " + " + secondNumber + " should be "
+						+ (firstNumber + secondNumber) + "\n");
+
 			}
 			counter++;
-			
-			output += "\n" + firstNumber + " + " + secondNumber + " = " + (firstNumber + secondNumber == result ? "correct" : "wrong");
- 			
+
+			output += "\n" + firstNumber + " + " + secondNumber + " = "
+					+ (firstNumber + secondNumber == result ? "correct" : "wrong");
+
 		}
-		
+
 		long endTime = System.currentTimeMillis();
 		long testTime = endTime - startTime;
-		
-		System.out.println("\nCorrect count is " + correctCounter + "\nTest time is " + (testTime/1000) + " seconds\n" + output);
-		
 
+		System.out.println(
+				"\nCorrect count is " + correctCounter + "\nTest time is " + (testTime / 1000) + " seconds\n" + output);
+
+		input.close();
 	}
 
 }
