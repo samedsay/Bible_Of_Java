@@ -1,44 +1,26 @@
 package main;
 
-import java.util.Scanner;
-
 /*
- * (Find the two highest scores)
- * Write a program that prompts the user to enter the number of students and each student’s name and score,
- * and finally displays the student with the highest score and the student with the second-highest score.
+ * (Find numbers divisible by 5 and 6)
+ * Write a program that displays all the numbers from 100 to 1,000, ten per line, that are divisible by 5 and 6.
+ * Numbers are separated by exactly one space.
  */
 
 public class Solution05_10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner input = new Scanner(System.in);
-		int grade;
-		int highestGrade = 0;
-		int secondHighestGrade = 0;
-		String highestGradeStudentName = "";
-		String secondHighestGradeStudentName = "";
-		do {
-			System.out.println("Enter student name: ");
-			String name = input.next();
-			System.out.println("Enter student grade: ('-1' for quit)");
-			grade = input.nextInt();
+		int counter = 0;
 
-			if (grade > highestGrade) {
-				highestGrade = grade;
-				highestGradeStudentName = name;
+		for (int i = 100; i <= 1000; i++) {
+
+			if (i % 5 == 0 && i % 6 == 0) {
+				System.out.printf("%d ", i);
+				counter++;
+				if (counter % 10 == 0)
+					System.out.println();
 			}
-			if (grade > secondHighestGrade && grade < highestGrade) {
-				secondHighestGrade = grade;
-				secondHighestGradeStudentName = name;
-			}
-
-		} while (grade != -1);
-
-		System.out.println("Highest grade is " + highestGrade + " by " + highestGradeStudentName);
-		System.out.println("Second highest grade is " + secondHighestGrade + " by " + secondHighestGradeStudentName);
-
-		input.close();
+		}
 
 	}
 
