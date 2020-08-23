@@ -13,7 +13,7 @@ public class Solution05_13 {
 		int greatestValue = 0;
 		while (greatestValue * greatestValue * greatestValue < 12000)
 			greatestValue++;
-		System.out.println("Smallest value is " + (greatestValue-1));
+		System.out.println("Smallest value is " + (greatestValue - 1));
 
 	}
 
