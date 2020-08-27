@@ -19,9 +19,7 @@ public class Solution05_17 {
 		for(int i = 1; i <= checker; i++) {
 			for(int j = i; j <= checker; j++) {
 				System.out.print("*");
-				for(int k = 1; k <= i; k++) {
-					System.out.print(k);
-				}
+				
 				
 			}
 			System.out.println();
