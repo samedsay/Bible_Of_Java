@@ -10,20 +10,20 @@ public class Solution05_20 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		int number = 2;
 		int counter = 0;
-		
-		while(number <= 2000) {
+
+		while (number <= 2000) {
 			boolean prime = true;
-			for(int divisor = 2; divisor < number/2; divisor++) {
-				if(number % divisor  == 0) {
+			for (int divisor = 2; divisor < number / 2; divisor++) {
+				if (number % divisor == 0) {
 					prime = false;
 				}
 			}
-			if(prime) {
-				
-				if(counter++ % 8 == 0) {
+			if (prime) {
+
+				if (counter++ % 8 == 0) {
 					System.out.println();
 				}
 				System.out.printf("%4d ", number);
