@@ -21,20 +21,43 @@ public class Solution06_01 {
 		int totalDay = 0;
 		String monthNane = "";
 		String dayName = "";
+		switch (day) {
+		case 0:
+			dayName = "Sunday";
+			break;
+		case 1:
+			dayName = "Monday";
+			break;
+		case 2:
+			dayName = "Tuesday";
+			break;
+		case 3:
+			dayName = "Wednesday";
+			break;
+		case 4:
+			dayName = "Thursday";
+			break;
+		case 5:
+			dayName = "Friday";
+			break;
+		case 6:
+			dayName = "Saturday";
+			break;
 
-		for (int i = 1; i <= 12; i++) {
+		}
+
+		System.out.println("Januaryd 1, " + year + " is " + dayName);
+
+		for (int i = 2; i <= 12; i++) {
 			switch (i) {
-			case 1:
-				monthNane = "January";
-				totalDay += 31;
-				break;
 			case 3:
 				monthNane = "March";
-				totalDay += 31;
+				totalDay += leapYear ? 29 : 28;
+				;
 				break;
 			case 5:
 				monthNane = "May";
-				totalDay += 31;
+				totalDay += 30;
 				break;
 			case 7:
 				monthNane = "July";
@@ -42,39 +65,39 @@ public class Solution06_01 {
 				break;
 			case 8:
 				monthNane = "August";
-				totalDay += 31;
+				totalDay += 30;
 			case 10:
 				monthNane = "October";
-				totalDay += 31;
+				totalDay += 30;
 				break;
 			case 12:
 				monthNane = "December";
-				totalDay += 31;
+				totalDay += 30;
 				break;
 			case 2:
 				monthNane = "February";
-				totalDay += leapYear ? 29 : 28;
+				totalDay += 31;
 				break;
 			case 4:
 				monthNane = "April";
-				totalDay += 30;
+				totalDay += 31;
 				break;
 			case 6:
 				monthNane = "June";
-				totalDay += 30;
+				totalDay += 31;
 				break;
 			case 9:
 				monthNane = "September";
-				totalDay += 30;
+				totalDay += 31;
 				break;
 			case 11:
 				monthNane = "November";
-				totalDay += 30;
+				totalDay += 31;
 				break;
 
 			}
-			
-			int lastDay = totalDay % 7 + (day);
+
+			int lastDay = totalDay % 7;
 
 			switch (lastDay) {
 			case 0:
@@ -100,9 +123,9 @@ public class Solution06_01 {
 				break;
 
 			}
-			
+
 			System.out.println(monthNane + " 1, " + year + " is " + dayName);
-			
+
 		}
 
 	}
