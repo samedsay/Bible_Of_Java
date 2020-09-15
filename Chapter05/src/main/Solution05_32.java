@@ -16,7 +16,7 @@ public class Solution05_32 {
 			lottery = (int) (Math.random() * 100);
 			lotteryDigit1 = lottery / 10;
 			lotteryDigit2 = lottery % 10;
-			if (lotteryDigit1 != lotteryDigit2)
+			if (lotteryDigit1 != lotteryDigit2 && lottery >= 10)
 				break;
 		}
 
@@ -32,6 +32,8 @@ public class Solution05_32 {
 		else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 || guessDigit2 == lotteryDigit1
 				|| guessDigit2 == lotteryDigit2)
 			System.out.println("Match one digit: you win $1,000");
+		else
+			System.out.println("Sorry: no match ");
 
 	}
 
