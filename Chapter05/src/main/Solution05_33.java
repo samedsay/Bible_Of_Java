@@ -27,6 +27,9 @@ public class Solution05_33 {
 					System.out.print(i + ", ");
 				}
 				
+				
+				
+				
 			}
 			
 		}
