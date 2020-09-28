@@ -28,9 +28,7 @@ public class Solution05_20 {
 				}
 				System.out.printf("%4d ", number);
 			}
-			
-			
-			
+
 			number++;
 		}
 
