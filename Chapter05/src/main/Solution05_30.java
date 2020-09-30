@@ -24,5 +24,7 @@ public class Solution05_30 {
 			System.out.printf("After %d. month -> %.3f\n", i, sum);
 
 		}
+		
+		input.close();
 	}
 }

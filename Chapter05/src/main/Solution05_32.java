@@ -35,6 +35,8 @@ public class Solution05_32 {
 		else
 			System.out.println("Sorry: no match ");
 
+		
+		input.close();
 	}
 
 }

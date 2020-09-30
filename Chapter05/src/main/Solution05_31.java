@@ -25,6 +25,8 @@ public class Solution05_31 {
 			System.out.printf("%-6d %.2f\n", i, sum);
 
 		}
+		
+		input.close();
 
 	}
 
