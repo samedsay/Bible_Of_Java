@@ -17,27 +17,26 @@ public class Solution05_39 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		double amount = 0;
 		double interest = 0;
-		
-		while(interest < 30000) {
+
+		while (interest < 30000) {
 			amount++;
 			interest = 0;
-			if(amount >= 10000) {
+			if (amount >= 10000) {
 				interest += 5000 * 0.08;
 				interest += 5000 * 0.10;
-				interest += (amount -10000) * 0.12;
-			}
-			else if(amount >= 5000) {
+				interest += (amount - 10000) * 0.12;
+			} else if (amount >= 5000) {
 				interest += 5000 * 0.08;
 				interest += (amount - 5000) * 0.10;
-			}else {
+			} else {
 				interest += amount * 0.08;
 			}
-			
+
 		}
-		
+
 		System.out.println("Minimum sales is " + amount);
 
 	}

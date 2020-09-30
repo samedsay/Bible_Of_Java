@@ -24,7 +24,7 @@ public class Solution05_38 {
 		
 		System.out.println(" (Decimal) = " + binaryNumber  + " (Octal)");
 
-
+		input.close();
 	}
 
 }
