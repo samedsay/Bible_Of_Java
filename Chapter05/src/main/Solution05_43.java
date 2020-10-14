@@ -7,8 +7,6 @@ public class Solution05_43 {
 		
 		
 		
-		
-		
 
 	}
 
