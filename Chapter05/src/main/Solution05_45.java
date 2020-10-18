@@ -30,6 +30,8 @@ public class Solution05_45 {
 		System.out.println("The mean is " + mean);
 
 		System.out.println("The standard deviation is " + standartDeviaton);
+		
+		input.close();
 
 	}
 

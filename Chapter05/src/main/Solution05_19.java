@@ -28,7 +28,7 @@ public class Solution05_19 {
 			System.out.println();
 		}
 
-
+		input.close();
 	}
 
 }

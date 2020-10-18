@@ -23,6 +23,8 @@ public class Solution05_44 {
 		}
 
 		System.out.println("The bits are " + binaryForm);
+		
+		input.close();
 
 	}
 

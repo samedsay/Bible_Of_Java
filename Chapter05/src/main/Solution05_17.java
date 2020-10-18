@@ -26,13 +26,15 @@ public class Solution05_17 {
 			}
 
 			for (int j = i; j > 0; j--) {
-				if(j == 1)
+				if (j == 1)
 					continue;
-				System.out.print(j-1 + " ");
+				System.out.print(j - 1 + " ");
 			}
 
 			System.out.println();
 		}
+
+		input.close();
 
 	}
 

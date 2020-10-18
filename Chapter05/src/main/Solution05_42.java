@@ -23,6 +23,7 @@ public class Solution05_42 {
 		double secondRate = input.nextDouble();
 		System.out.println("Rate for > 10000$");
 		double thirdRate = input.nextDouble();
+		input.close();
 
 		double amount = 0;
 		double interest = 0;
