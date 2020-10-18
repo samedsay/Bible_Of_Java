@@ -19,7 +19,6 @@ public class Solution05_46 {
 
 		System.out.println("The reversed string is " + reversed);
 
-		
 		input.close();
 	}
 
