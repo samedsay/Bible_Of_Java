@@ -8,8 +8,6 @@ public class Solution05_51 {
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
-		
-		
 
 	}
 
