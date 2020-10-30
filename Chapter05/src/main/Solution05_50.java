@@ -1,5 +1,11 @@
 package main;
 
+/*
+ * (Count uppercase letters)
+ * Write a program that prompts the user to enter a string and displays the number of the uppercase letters in the string.
+
+ */
+
 import java.util.Scanner;
 
 public class Solution05_50 {
@@ -19,7 +25,7 @@ public class Solution05_50 {
 
 		}
 
-		System.out.println("The number of capital letter is " + counterCapital);
+		System.out.println("The number of uppercase letter is " + counterCapital);
 
 		input.close();
 
