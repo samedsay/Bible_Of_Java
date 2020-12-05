@@ -125,6 +125,8 @@ public class Solution06_01 {
 			}
 
 			System.out.println(monthNane + " 1, " + year + " is " + dayName);
+			
+			input.close();
 
 		}
 

@@ -13,7 +13,7 @@ public class Solution06_04 {
 		int number = input.nextInt();
 
 		reverse(number);
-		
+
 		input.close();
 
 	}
