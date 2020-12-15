@@ -8,6 +8,9 @@ public class Solution06_05 {
 
 		
 		
+		
+		
+		
 	}
 
 }
