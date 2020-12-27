@@ -19,6 +19,7 @@ public class Solution06_05 {
 
 		displaySortedNumbers(number1, number2, number3);
 
+		input.close();
 	}
 
 	public static void displaySortedNumbers(double num1, double num2, double num3) {
@@ -61,7 +62,7 @@ public class Solution06_05 {
 			}
 
 		}
-		
+
 		System.out.println(third + " >> " + second + " >> " + first);
 
 	}
