@@ -12,6 +12,8 @@ public class Solution06_06 {
 		int number = input.nextInt();
 		displayPattern(number);
 
+		input.close();
+
 	}
 
 	public static void displayPattern(int n) {
