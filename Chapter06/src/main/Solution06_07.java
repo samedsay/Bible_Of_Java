@@ -33,7 +33,7 @@ public class Solution06_07 {
 				investmentAmount += newAmount;
 			}
 
-			System.out.printf("%2d\t%.2f\n",i,investmentAmount);
+			System.out.printf(" %2d\t   %.2f\n", i, investmentAmount);
 
 		}
 
