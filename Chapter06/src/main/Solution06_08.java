@@ -20,6 +20,8 @@ public class Solution06_08 {
 
 		}
 
+		input.close();
+
 	}
 
 	public static double celsiusToFahrenheit(double celsius) {
