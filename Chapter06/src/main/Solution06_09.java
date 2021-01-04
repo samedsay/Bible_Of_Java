@@ -11,13 +11,14 @@ public class Solution06_09 {
 
 		double meter = 20.0;
 		double foot = 1.0;
-		
-		System.out.println("Celcius\t  Fahrenheit\t|\tFahrenheit\tCelcius");
-		System.out.println("_________________________________________________________");
+
+		System.out.println("Feet\t  Meters\t|\tMeters\tFeet");
+		System.out.println("_______________________________________________");
 
 		for (int i = 0; i < 10; i++) {
 
-			System.out.printf("  %3.1f\t    %3.3f\t|\t %3.1f\t\t%3.3f\n", foot, footToMeter(foot), meter, meterToFoot(meter));
+			System.out.printf("%3.1f\t  %3.3f\t\t|\t%3.1f\t%3.3f\n", foot, footToMeter(foot), meter,
+					meterToFoot(meter));
 			meter += 5;
 			foot++;
 
