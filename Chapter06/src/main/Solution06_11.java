@@ -8,7 +8,7 @@ public class Solution06_11 {
 		int amount = 10000;
 
 		System.out.println("Sales Amount\tCommission");
-		System.out.println("____________________________");
+		System.out.println("___________________________");
 
 		for (int i = 0; i < 19; i++) {
 
