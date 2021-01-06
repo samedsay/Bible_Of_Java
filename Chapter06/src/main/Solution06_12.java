@@ -25,8 +25,8 @@ public class Solution06_12 {
 	public static void printChars(char ch1, char ch2, int numberPerLine) {
 
 		int lineChecher = 0;
-		
-		if(ch1 > ch2) {
+
+		if (ch1 > ch2) {
 			char temp = ch2;
 			ch2 = ch1;
 			ch1 = temp;
@@ -38,7 +38,7 @@ public class Solution06_12 {
 				System.out.println();
 
 			System.out.print((char) i + " ");
-			
+
 			lineChecher++;
 
 		}
