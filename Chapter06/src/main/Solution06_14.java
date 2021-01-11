@@ -11,7 +11,14 @@ public class Solution06_14 {
 		System.out.println("Enter i value: ");
 		int iMax = input.nextInt();
 		
-		for(int i = 1; i < iMax; i++) {
+		double result = 0;
+		
+		for(int i = 1; i < iMax; i+=100) {
+			
+			result += 4 * (Math.pow(-1, i + 1) / (2 * i -1));
+			
+			System.out.printf("%d\t\tm(%4f) \n", i, result);
+			
 			
 		}
 		
