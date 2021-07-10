@@ -11,7 +11,7 @@ public class Solution06_14 {
 		System.out.println("Enter i value: ");
 		int iMax = input.nextInt();
 		
-		System.out.println("_i_______________m(i)_   ");
+		System.out.println("_i_______________m(i)_");
 
 		for (int i = 1; i <= iMax; i++) {
 			double result = 0;
