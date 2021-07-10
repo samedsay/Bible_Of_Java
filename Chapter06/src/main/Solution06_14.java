@@ -10,6 +10,8 @@ public class Solution06_14 {
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter i value: ");
 		int iMax = input.nextInt();
+		
+		System.out.println("_i_______________m(i)_");
 
 		for (int i = 1; i <= iMax; i++) {
 			double result = 0;
@@ -18,7 +20,7 @@ public class Solution06_14 {
 
 			if (i % 100 == 1)
 
-				System.out.printf("%d\t\t(%4.4f) \n", i, result);
+				System.out.printf("%d\t\t%4.4f \n", i, result);
 
 		}
 
